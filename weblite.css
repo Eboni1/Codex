@@ -1,4 +1,4 @@
-```css
+css
 /* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
@@ -13,17 +13,26 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url('https://www.marshallsindia.com/ImageBuckets/ItemImages/ZA%201903.jpg?id=75');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     text-align: center;
     padding: 50px;
-    background-color: #3498db;
+    background-image: url('https://i.pinimg.com/736x/62/cb/b8/62cbb8138fd6c38a72198e09859a5426.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
 }
 
-#projects {
+#bio {
     padding: 20px;
+}
+
+#projects {
+    padding: 10px;
 }
 
 footer {
@@ -32,4 +41,3 @@ footer {
     background-color: #333;
     color: #fff;
 }
-```
